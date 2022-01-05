@@ -110,10 +110,19 @@ header a, a:visited {
 
 .neonText {
   color: #fff;
-  animation: changeShadowNeon 10s infinite;
+ /* animation: changeShadowNeon 10s infinite;*/
   transition: 1s;
+  text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
 }
-@keyframes changeShadowNeon{
+/*@keyframes changeShadowNeon{
     0%{
         text-shadow:
           0 0 7px #fff,
@@ -193,7 +202,7 @@ header a, a:visited {
           0 0 102px #0fa,
           0 0 151px #0fa;
     }
-}
+}*/
 p{
   text-align: center;
   font-weight: 400;
