@@ -47,7 +47,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);  
   }
   else{
-  	const audio = new Audio("https://x2convert.com/Thankyou?token=U2FsdGVkX18mGcKN3olUoFbscVJNGVXoSBtdVdQ0LxzMs6R8jk3SFFx9qzoa20tZxbrINULIVWrF6Kz7RMhevPHt5eTseFtzvmmEnK9Pt7%2fNpZi%2b8VWEE4rCAAX1QSm8S6XHyKsn0WT0Ewg5kHvvgY0R%2bwuKOkbSZQILXhi5SFE%3d&s=youtube&id=&h=2950493950567860328");
+  	const audio = new Audio("https://lamvanthai0609.github.io/happynewyear/mp3/HappyNewYear.mp3");
   	audio.play();
   }
   console.log("1");
